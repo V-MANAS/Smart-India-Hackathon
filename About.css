@@ -1,0 +1,128 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: #D0DFFD;
+    padding: 50px       ;
+}
+.navbar{
+    height: 40px;
+    background-color: #014BDB;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .material-symbols-outlined{
+   
+    position: absolute;
+
+}
+
+.logo a{
+    padding-left: px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #0b0b0b;
+}
+.menu  a{
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu .material-symbols-outlined{
+    align-items: center;
+    position: absolute;
+    top:13px;
+    right: 13px;
+}
+.heading{
+    background-color: #D0DFFD;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    /* margin: 20px auto; */
+}
+.heading h3{
+    max-width: 100%;
+    font-size: 22px;
+    color: #3b3939;
+    margin-bottom: 8px; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}
+.cards{
+    
+    display: flex;
+    flex-direction: column  ;
+    width: 85%;
+    background-color: rgb(175, 218, 224)  ;
+    border-radius: 8px;
+    margin: 40px;
+    border: 1px solid black;
+
+}
+.cards2{
+    
+    display: flex;
+    flex-direction: column  ;
+    width: 85%;
+    background-color: rgb(175, 218, 224)  ;
+    border-radius: 8px;
+    margin: 40px;
+    border: 1px solid black;
+
+}
+.cards2 button{
+    margin-top: 15px;
+}
+.cards2:hover{
+    box-shadow: 2px 2px 10px rgb(0, 0, 0); ;
+}
+.cards2 img{
+    margin-top:20px ;
+}
+.cards2 .text{
+    margin-top: 30px;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    width:100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px;
+}
+.text{
+    text-align: center;
+}
+button{
+  margin-top:20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(31, 98, 222);
+    color: white;
+    transition: .5s;
+}
