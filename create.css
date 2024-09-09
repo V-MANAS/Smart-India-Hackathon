@@ -1,0 +1,146 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(indian-woman-2408609.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    position: absolute;
+    max-width: 700px;
+    width:100%;
+    /* background: #fff; */
+    padding: 25px;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgb(0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+.container header{
+    font-size: 1.5rem;
+    color:#eade0b;
+    font-weight: 500;
+    text-align: center
+}
+.container .form{
+    margin-top: 25px;
+
+}
+.form .input-box{
+
+    position: relative;
+    width:90%;
+    margin-top: 18px;
+
+}
+.input-box input{
+    background: transparent;
+    position: relative;
+    width:100%;
+    margin-top: 18px;
+
+}
+.input-box label{
+    color:#df1717;
+
+}
+.input-box input::placeholder{
+    color:#eade0b;
+}
+
+.form .input-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color:#fff;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius:6px;
+    padding: 0 15px;
+
+}
+.form .input-box input:hover{
+    border: 2px solid rgb(108, 99, 99);
+}
+.form .address input{
+    width: 90%;
+    height: 50px;
+    outline: none;
+    font-size: 1rem;
+    color: #fc1010;
+    margin-top: 10px;
+    border:1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    background: transparent;
+}
+.form .address input:hover{
+    border: 2px solid rgb(108, 99, 99);
+
+}
+.form .address input::placeholder{
+    color: #eade0b;
+}
+
+.gender{
+
+    border:1px solid #ddd ;
+    width:120px;
+}
+.gender-box h3{
+    color:#de1010;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.gender select{
+    background: transparent;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+.form button{
+    height: 55px;
+    width: 100%;
+    background-color:rgb(89, 85, 85);
+    color:#fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-weight: 400;
+    margin-top: 30px;
+
+
+}
+.form button:hover{
+    /* border:2px solid #333; */
+    background-color:rgb(70, 82, 80);
+
+}
+.form .login p {
+    text-align: center;
+    font-size: 1rem;
+    color:#fc1010;
+}
+.form .login a{
+    text-decoration: none;
+    color:aqua;
+    font-size: 1rem;
+    padding-left:7px;
+}
+.form .login a:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+@media screen and (max-width:500px){
+ .form .column{
+    flex-wrap: wrap;
+
+ }  
+}
