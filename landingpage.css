@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+main {
+  background: url("./images/indian-woman-2408609.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.nav-link.active {
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+nav {
+
+  position: relative;
+  z-index: 2;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #014bdb;
+  padding: 0 10px;
+  .logo-image img {
+    height: 110px;
+    width: 110px;
+    margin-top:-15px ;
+  }
+  ul {
+    margin: 0 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      color: #000000;
+      border-bottom: 3px solid #000000;
+    }
+  }
+  ul li img {
+    height: 20px;
+    width: 20px;
+  }
+}
+.page2 {
+  background-color: #f0f0f0;
+  height: 100vh;
+  .page2-content {
+    position: relative;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    h2 {
+      font-size: 2rem;
+      color: #014bdb;
+    }
+    .page2-left {
+      position: relative;
+      width: 55%;
+      h2 {
+        text-align: center;
+        margin: 20px;
+      }
+    }
+    .page2-left-button {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s ease-in-out;
+      :hover {
+        transform: scale(1.1);
+      }
+      .page2-left-button-card {
+        border-radius: 30px;
+        padding: 20px;
+        background-color: #014bdb;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+    .page2-right {
+      position: relative;
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        text-align: center;
+        margin: 20px;
+        color: #014bdb;
+      }
+      .page2-right-card {
+        border-radius: 20px;
+        height: 60%;
+        width: 60%;
+        background-color: #d0dffd;
+        img {
+          height: 80px;
+          width: 80px;
+          border-radius: 10px;
+        }
+        input {
+          color: #014bdb;
+          width: 80%;
+          background-color: white;
+          border-radius: 30px;
+          border: none;
+          margin: 10px 40px;
+          height: 30px;
+        }
+        .page2-right-card-news {
+          margin: 5px 5px;
+          height: 5rem;
+          display: flex;
+          align-items: center;
+          border-radius: 10px;
+          border: 1px solid #014bdb;
+          background-color: #f0f0f0;
+          gap: 15px;
+        }
+        .page2-right-card-news p {
+          color: #014bdb;
+        }
+      }
+    }
+  }
+}
+.page3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  .image-section {
+    flex: 1;
+    margin-left: 200px;
+  }
+  .image-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  .stats-section {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    justify-content: space-around;
+    flex: 1;
+    padding-left: 20px;
+    
+  }
+  .stats-section :nth-child(3){
+    grid-column: 1 / span 2;
+  }
+  .stat {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .stat h2 {
+    font-size: 36px;
+    color: #0066ff;
+    font-weight: bold;
+  }
+  .stat p {
+    font-size: 16px;
+    color: #333;
+  }
+}
+.page4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+  * {
+    color: black;
+  }
+  .info-box{
+    background-color: #D0DFFD;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+  }
+  .concept-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 750px;
+    margin: 10px;
+  }
+  .concept-section :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  .concept-section > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px;
+    gap: 20px;
+  }
+  .concept-title{
+    font-size: 24px;
+    background-color: #0066ff;
+    box-sizing: content-box;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+}
+.page5{
+  margin: 0 auto;
+  max-width:1000px ;
+  .page5-header{
+    font-size: 40px;
+    color: #014bdb;
+    text-align: center;
+    font-weight: 900;
+  }
+
+}
+.page5-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  .form-group {
+    width: 45%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+    background-color: #D0DFFD;
+  }
+
+  textarea {
+    height: 100px;
+  }
+
+  button {
+    background-color: #0066ff;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #014bdb ;
+  }
+
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+}
+footer{
+  width: 100%;
+  background-color: #014bdb;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  span{
+    font-size: 34px;
+    color: white;
+    margin: 20px;
+  }
+  .footer-links ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+
+  }
+}
