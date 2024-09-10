@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background: url(indian-woman-2408609.jpg);
+    background-size: cover;background-repeat: no-repeat;
+}
+.main{
+    
+    width:420px;
+    background-color:#D0DFFD;
+    /* backdrop-filter:blur(15px) ; */
+    color:black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 1px solid black;
+}
+.nav-logo{
+   
+    color:#f0850b;
+
+}
+.nav-logo img{
+   
+    position: fixed;
+    left: 20px;
+    top:5px;
+    height: 60px;
+    width:60px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 3rem;
+  }
+    .nav-bar {
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:  #014BDB;
+        padding: 2.5vmin;
+        
+        z-index: 100;
+        padding-left: 5rem;
+
+      }
+
+.nav-bar a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+  
+}
+.main h1{ 
+    font-size: 36px;
+    text-align: center;
+    color: black;
+
+}
+.main .inputBox{
+    position: relative;
+    width:100%;
+    height: 50px;
+    margin: 30px 0;
+   
+}
+.inputBox input{
+    width:100%;
+    height: 100%;
+    outline: none;
+    background:transparent;
+    border: 1.5px solid black;
+    border-radius: 45px;
+    font-size: 16px;
+    padding: 20px 40px 20px 20px;
+}
+.inputBox input:hover{
+    border: 2px solid #a58282;
+}
+.inputBox input::placeholder{
+    color: black;
+    
+
+}
+.inputBox  i{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black
+}
+.main .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0px 15px;
+
+}
+
+.remember-forgot label input {
+    accent-color:black;
+    margin-right: 4px;
+  
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    font-weight: 450;
+    color: black;
+}
+.main .btn{
+    width:100%;
+    height:45px;
+    border:none;
+    background: #014BDB;
+    outline: none;
+    border-radius:40px;
+    transition: all 0.2s ease;   
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(35, 34, 34);
+    font-weight: 550;
+
+}
+.main .btn:hover{
+    background: #145ae6;
+    box-shadow: 0 0 6px #837575 ;
+}
+.main #New-acc{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+
+}
+#New-acc p {
+    color:black;
+    /* text-decoration: none; */
+    font-weight: 200;
+
+} 
+#New-acc p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+
+} 
+#New-acc p a:hover {
+    color: #2f2c2c;
+    text-decoration: underline;
+    font-weight: 600;
+
+} 
