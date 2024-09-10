@@ -7,12 +7,17 @@
   position: absolute;
   z-index: 3;
   right: 20px;
-  top: 100px;
+  top: 120px;
 }
 main {
   background: url("./images/indian-woman-2408609.jpg");
   background-size: cover;
   height: 100vh;
+  marquee{
+    background-color: #d0dffd;
+    font-size: 1rem;
+    color: red;
+  }
 }
 .nav-link.active {
     color: #000000;
